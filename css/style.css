@@ -360,18 +360,22 @@ nav {
     border-radius: 0px 0px 4px 4px;
 }
 .social-icons {
-    display: inline-flex;
-    margin-top: 16px;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+   
     
 }
-.social-link:not(:last-child) {
+.list-icon:not(:last-child) {
     margin-right: 10px;
 }
-.social-link {
+.list-icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -379,14 +383,15 @@ nav {
 .icon {
     width: 20px;
     height: 20px;
+    padding-bottom: -3px;
     fill: var(--icon-color);
 }
-.social-link:hover,
-.social-link:focus {
+.list-icon:hover,
+.list-icon:focus {
     background-color: var(--accent-color);
 }
-.social-link:hover .icon,
-.social-link:focus .icon {
+.list-icon:hover .icon,
+.list-icon:focus .icon {
     fill: #FFFFFF;
 }
 
@@ -487,6 +492,7 @@ nav {
     padding-right: 5px;
     margin: 0;
     color: #FFFFFF;
+    
 }
 
 .footer-mail,
@@ -508,19 +514,11 @@ nav {
 }
 
 
-
 .footer-icons {
     display: inline-block;
     margin-top: 72px;
     margin-left: 70px;
     width: 206px;
-}
-.list-icons {
-    display: flex;
-    justify-content: start;
-    margin: 0;
-    padding: 0px;
-    margin-top: 20px;
 }
 .title-icons {
     margin: 0;
@@ -529,7 +527,37 @@ nav {
     line-height: 1.2;
     color: #FFFFFF;
 }
-.foter-icon {
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+.footer-icons
+.list-icon {
+    background-color: var(--second-color);
+}
+.footer-icons .list-icon:hover,
+.footer-icons .list-icon:focus {
+    background-color: var(--accent-color);
+}
+    /*
+.list-icons {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding: 0px;
+    margin-top: 20px;
+}
+.link-icon {
+    padding: 0;
+}
+.list-icon {
+    display: flex;
+    margin: 0;
+}
+
+.footer-icon {
+    padding: 0;
     width: 20px;
     height: 20px;
     fill: #FFFFFF;
@@ -537,7 +565,7 @@ nav {
 .social-link:hover,
 .social-link:focus {
     background-color: var(--accent-color);
-}
+}*/
 
 /*PORTFOLIO*/
 
