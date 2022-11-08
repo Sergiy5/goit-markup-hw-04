@@ -534,39 +534,13 @@ nav {
 }
 .footer-icons
 .list-icon {
-    background-color: var(--second-color);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-icons .list-icon:hover,
 .footer-icons .list-icon:focus {
     background-color: var(--accent-color);
 }
-    /*
-.list-icons {
-    display: flex;
-    justify-content: start;
-    margin: 0;
-    padding: 0px;
-    margin-top: 20px;
-}
-.link-icon {
-    padding: 0;
-}
-.list-icon {
-    display: flex;
-    margin: 0;
-}
-
-.footer-icon {
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    fill: #FFFFFF;
-}
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--accent-color);
-}*/
-
+ 
 /*PORTFOLIO*/
 
 /*Buttons portfolio*/
@@ -635,8 +609,8 @@ nav {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
-.card-portfilio:hover,
-.card-portfilio:focus {
+.project-link:hover,
+.project-link:focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 0px 4px 4px rgba(0, 0, 0, 0.06),
 1px 4px 6px rgba(0, 0, 0, 0.16);
